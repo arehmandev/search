@@ -1,7 +1,6 @@
 package search
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"path/filepath"
