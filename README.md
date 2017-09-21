@@ -6,6 +6,11 @@ Pretty basic usage:
 ```
 package main
 
+import (
+	"os"
+	"github.com/arehmandev/search
+)
+
 func main () {
 	directories := search.Search("filename", "filepath", "folder") // replace folder with 'file' or 'all' if you wish
 
