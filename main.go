@@ -1,4 +1,4 @@
-package main
+package search
 
 import (
 	"fmt"
@@ -7,11 +7,6 @@ import (
 	"path/filepath"
 	"regexp"
 )
-
-func main() {
-	fmt.Println("placeholder")
-}
-
 // Search - this is a function for searching a directory for a file/folder/both
 func Search(pattern, pathforsearching, filetype string) []string {
 
